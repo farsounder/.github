@@ -8,3 +8,6 @@ Our sensor looks forward in 3D and detects hazards to navigation and the seafloo
 for how to integrate our sonar data into your system, you can find them in this [repo](https://github.com/farsounder/SDKMessageExample)
 
 If you have any questions, feel free to contact us at service@farsounder.com.
+
+## Recent Blog Posts
+BLOG_POST_LIST
