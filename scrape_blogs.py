@@ -23,14 +23,14 @@ def get_blog_feed_xml(blog_feed_url: str) -> str:
 
 def add_to_readme(url_title_map: dict[str, str], readme_name: str):
     readme = ''
-    with open(readme_name, 'r') as f:
+    with open(os.path.join("profile", readme_name), 'r') as f:
         for line in f.readlines():
           if not line.startswith("BLOG_POST_LIST"):
             readme += line
             continue
           for url, title in url_title_map.items():
               readme += '- [{}]({})\n'.format(title, url)
-    with open('README.md', 'w') as f:
+    with open(os.path.join("profile", 'README.md'), 'w') as f:
         f.write(readme)
     return
 
