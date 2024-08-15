@@ -24,7 +24,7 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Add and commit readme
         run: |
-          git add README.md
+          git add profile/README.md
           git commit -m "Automatic readme update (blog scraper)" || exit 0
           git push origin main
       
