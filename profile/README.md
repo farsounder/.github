@@ -10,6 +10,8 @@ for how to integrate our sonar data into your system, you can find them in this 
 If you have any questions, feel free to contact us at service@farsounder.com.
 
 ## Recent Blog Posts
+[![Get latest blogs](https://github.com/farsounder/.github/actions/workflows/scrape_blogs.yaml/badge.svg)](https://github.com/farsounder/.github/actions/workflows/scrape_blogs.yaml)
+
 - [Understanding vessel operations, sonar, and whale safety ](https://www.farsounder.com/blog/understanding-vessel-operations-sonar-and-whale-safety)
 - [Datasharing, Crowdsourcing and Community Contributions](https://www.farsounder.com/blog/datasharing-crowdsourcing-and-community-contributions)
 - [Sharing Across the Fleet](https://www.farsounder.com/blog/sharing-across-the-fleet)
